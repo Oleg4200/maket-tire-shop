@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>homework8</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="phoneNumber">
+			<p class="number"><img class="imagePhone" src="телефонная_трубочка.png">
+			(044)123-45-67 (044)567-89-10</p>
+		</div>
+		<div class="panelLogin">
+			<img class="imageLogin" src="авторизация.png">
+			<div class="inputType">
+				<input type="text" class="login" placeholder="логин">
+				<input type="password" class="password" placeholder="пароль">
+				<a class="exit" href="#">вход | регистрация</a>
+				<a class="forgotPassword" href="#">забыли пароль?</a>
+			</div>
+		</div>
+		<nav class="navigation">
+			<div class="navigationOpacity">
+				<div class="shape">
+					<a href="#"><img class="home" src="домой.png"></a>
+					<a href="#"><img class="mapWebsite" src="карта_сайта.png"></a>
+					<a href="#"><img class="letter" src="Письмо.png"></a>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="banner">
+		<img class="imageBanner" src="blick_copy.png">
+	</div>
+	<div class="menu">
+		<ul class="menuLink">
+			<ol class="menuLink1">О КОМПАНИИ</ol>
+			<ol class="menuLink2">ОПЛАТА</ol>
+			<ol class="menuLink3">ДОСТАВКА</ol>
+			<ol class="menuLink4">СТАТЬИ</ol>
+			<ol class="menuLink5">КОНТАКТЫ</ol>
+		</ul>
+		<div class="koshuk">
+			<img class="imageKoshuk" src="Layer_15.png">
+			<p class="wordProductMenu">товаров:</p>
+			<p class="numberProductMenu">0</p>
+			<p class="WordAmountMenu">на сумму:</p>
+			<p class="costMenu">0,00 грн.</p>
+		</div>
+	</div>
+	<div class="flexFind">
+	<div class="findPoAvto">
+		<p class="titleDisc"><b>Диски:</b></p>
+		<h4 class="titleFindPoAvto"><b>Поиск по автомобилю</b></h4>
+		<p class="titleTires"><b>Шини:</b></p>
+		<div class="findDiscPoAvto">
+			<form class="marginFindDiscPoAvto">
+				<label class="labelFindDiscAvto" for="brandAvto">Марка<span class="avto1"><b>авто:</b></span></label>
+				<select name="brandAvto" id="brandAvto"></select>
+            </form>	
+            <form class="marginFindDiscPoAvto">
+				<label class="labelFindDiscAvto" for="modelAvto">Модель</label>
+				<select name="modelAvto" id="modelAvto"></select><span class="avto"><b>автомобиля:</b></span>
+			</form>
+			<form class="marginFindDiscPoAvto">	
+				<label class="labelFindDiscAvto" for="yearAvto">Год выпуска </label>
+				<select name="yearAvto" id="yearAvto"></select><span class="avto"><b>автомобиля:</b></span>
+            </form>
+            <form class="marginFindDiscPoAvto">	
+				<label class="labelFindDiscAvto" for="Kit">Комплектация:</label>
+				<select name="Kit" id="Kit"></select>
+            </form>
+		</div >
+                <form class="findTiresPoAvto1">
+                    <label class="labelFindTiresAvto" for="brandAvto">Марка <span class="avto1"><b>авто:</b></span></label>
+                    <select name="brandAvto" id="brandAvto"></select>
+                </form>
+                <form class="findTiresPoAvto2">
+                    <label class="labelFindTiresAvto" for="modelAvto">Модель 
+                    </label>
+                    <select name="modelAvto" id="modelAvto"></select><span class="avto"><b>автомобиля:</b></span>
+                 </form>
+                 <form class="findTiresPoAvto3">   
+                    <label class="labelFindTiresAvto" for="yearAvto">Год выпуска 
+                    </label>
+                    <select name="yearAvto" id="yearAvto"></select>
+                    <span class="avto"><b>автомобиля:</b></span>
+                </form>
+                <form class="findTiresPoAvto4">  
+                    <label class="labelFindTiresAvto" for="Kit">Комплектация:</label>
+                    <select name="Kit" id="Kit"></select>
+                </form>
+                <a class="findWord" href="">поиск...</a>
+            
+        </div>
+        <div class="findTires">
+            <h4 class="titleFindTires">поиск шин</h4>
+            <div class="labelFindTiresMargin">
+                <form class="marginFindTiresSize">
+                    <label class="labelFindTires" for="size">Размер:</label>
+                    <select name="size" id="size"></select>
+                    <span>/</span>
+                    <select name="size1" id="size1"></select>
+                </form>
+                <form class="marginFindTiresR">    
+                    <label class="labelFindTiresR" for="radius">R</label>
+                    <select name="radius" id="radius"></select>
+                </form>
+            
+            </div>
+            <div class="seasonMargin">
+                <p class="wordSeason">Сезон:</p>
+                <form class="season1">
+                    <input type="checkbox" class="summer">
+                </form>
+                <form class="season2">
+                    <input type="checkbox" class="winter">
+                </form>
+                <form class="season3">
+                    <input type="checkbox" class="allSeason">
+                </form>
+
+                
+            </div>
+            <a class="findWord2" href="">поиск...</a>
+        </div>
+        
+            <div class="findDisc">
+                   <div class="flexFindDisc">
+                    <div class="line">
+                        <h4 class="titleFindDisc">поиск дисков</h4>
+                        <form class="findDisc1">
+                            <label class="labelFindDisc" for="diameter">Диаметр <span class="wordGreyColor">диска</span></label>
+                            <select name="diameter" id="diameter"></select>
+                        </form>
+                        <form class="findDisc2">
+                            <label class="labelFindDisc" for="numberHole">Количество<br><span class="wordGreyColor">крепёжных</span><br><span class="wordGreyColor">отверстий:</span></label>
+                            <select name="numberHole" id="numberHole"></select>
+
+                        </form>
+                        <form class="findDisc3">
+                            <label class="labelFindDisc" for="diameterPlacingHole">Диаметр<br>
+                             <span class="wordGreyColor">расположения</span><br>
+                             <span class="wordGreyColor">крепёжных</span><br><span class="wordGreyColor">отверстий:</span> </label>
+                            <select name="diameterPlacingHole" id="diameterPlacingHole">
+                            </select>
+
+                        </form>
+                    </div>
+                    <div class="findDiscRight">     
+                        <form class="findDisc4">
+                            <label class="labelFindDisc" for="DiameterCentralHole">ДЦО<br> 
+                            <span class="wordGreyColor2">(диаметр</span><br>
+                            <span class="wordGreyColor2">центрального</span><br>
+                            <span class="wordGreyColor2">отверстия):</span></label><br>
+                            <select name="DiameterCentralHole" id="DiameterCentralHole"></select><br>
+                        </form>
+                        <form class="findDisc5">
+                            <label class="labelFindDisc" for="et">ЕТ<br> 
+                            <span class="wordGreyColor2">(вылет диска):</span></label><br>
+                            <select name="et" id="et"></select><br>
+                        </form>
+                        <a class="findWord3" href="">поиск...</a>
+                    </div>
+                </div>
+             </div>
+        </div>
+
+        <div class="FlexmainContent">
+        <aside class="asideLeft">
+            <p class="titleCataloProduct">Каталог продукции</p>
+              <div class="asideLeftList"> 
+                <ul class="tiresListAsideLeft">Шини<br><br>
+                          <li class="listAsideLeft">Наименование 1</li>
+                          <li class="listAsideLeft">Наименование 2</li>
+                          <li class="listAsideLeft">Наименование 3</li>
+                          <li class="listAsideLeft">Наименование 4</li>
+
+                </ul><br><br><br>
+                <ul class="discListAsideLeft">Диски<br><br>                     
+                          <li class="listAsideLeft">Наименование 1</li>
+                          <li class="listAsideLeft">Наименование 2</li>
+                          <li class="listAsideLeft">Наименование 3</li>
+                          <li class="listAsideLeft">Наименование 4</li>
+                </ul><br><br><br>
+                   <ul class="boltsAsideLeft">Болты<br><br>
+                          <li class="listAsideLeft">Наименование 1</li>
+                          <li class="listAsideLeft">Наименование 2</li>
+                          <li class="listAsideLeft">Наименование 3</li>
+                          <li class="listAsideLeft">Наименование 4</li>
+
+                    </ul>
+            </div>  
+        </aside>
+        <main class="main">
+
+
+        </main>
+        <aside class="asideRight">
+        <p class="titleBrends">Бренды</p>
+        <div class="asideRightList"> 
+                <ul class="tiresListAsideRight">Шини<br><br>
+                          <li class="listAsideRight">
+                          <input type="checkbox">Бренд 1</li>
+                          <li class="listAsideRight">
+                          <input type="checkbox">Бренд 2</li>
+                          <li class="listAsideRight">
+                          <input type="checkbox">Бренд 3</li>               
+                </ul><br><br><br>
+                <ul class="discListAsideRight">Диски<br><br>                     
+                          <li class="listAsideRight">
+                          <input type="checkbox">Бренд 1</li>
+                          <li class="listAsideRight">
+                          <input type="checkbox">Бренд 2</li>
+                          <li class="listAsideRight">
+                          <input type="checkbox">Бренд 3</li> 
+                </ul>
+            </div>
+            <input class="ChooseButton" type="button" value="Вибрать">
+
+        </aside>
+	</div>
+
+
+
+	
+
+
+
+</body>
+</html>

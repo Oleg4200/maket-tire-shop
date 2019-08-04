@@ -1,0 +1,819 @@
+@font-face{
+	font-family: "Arial MT";
+	src: url(ARIALMT.ttf);
+}
+@font-face{
+	font-family: "Lucida Sans Unicode";
+	src: url(Lucida Sans Unicode.ttf);
+}
+@font-face{
+	font-family: "Arial - Black";
+	src: url(Arial Black.ttf);
+}
+@font-face{
+	font-family: "Arial - Italic MT";
+	src: url(ARIALI.TTF);
+}
+.header{
+	display: flex;
+margin-left: 345px;
+	align-items: baseline;
+}
+.phoneNumber{
+	width: 290px;
+	height: 21px;
+	margin-top: 26px;
+
+}
+.imagePhone{
+	width: 22px;
+	height: 21px;
+	background-color: #f10000;
+	background-image: linear-gradient(to top, #206988 0%, #114165 59%, #0c3256 100%);
+	border-radius: 50%;
+	float: left;
+	margin:0 4px 1px 3px;
+
+}
+.number{
+	width: 264px;
+	height: 17px;
+	color: #5e696d;
+	font-family: "Arial MT";
+	font-size: 18px;
+	
+}
+.panelLogin{
+	width: 496px;
+	height: 27px;
+	box-shadow: 2px 3px 3px rgba(150, 150, 150, 0.75);
+	background-color: #b1bcc0;
+	background-image: linear-gradient(to bottom, #206988 0%, #114165 59%, #0c3256 100%);
+	border-radius: 5px;
+}
+.inputType{
+   margin-left: 28px;
+	margin-top: -27px;
+
+}
+.imageLogin{
+	width: 14px;
+	height: 18px;
+	background-image: linear-gradient(to bottom, #206988 0%, #114165 59%, #0c3256 100%);
+	margin-top: 5px;
+	margin-left: 8px;
+}
+.login{
+	width: 113px;
+	height: 16px;
+	border: 1px solid #9ba1a3;
+	background-color: #ffffff;
+	padding-left: 3px;
+	
+}
+   input[type="text"]::-webkit-input-placeholder {
+	color: #97a2a6;
+	font-family: "Lucida Sans Unicode";
+	font-size: 11px;
+	
+ }
+   input[type="text"]:-ms-input-placeholder { width: 31px;
+	color: #97a2a6;
+	font-family: "Lucida Sans Unicode";
+	font-size: 11px;
+	
+}
+   input[type="text"]::-ms-input-placeholder {
+	color: #97a2a6;
+	font-family: "Lucida Sans Unicode";
+	font-size: 11px;
+	
+}
+   input[type="text"]::placeholder {
+	color: #97a2a6;
+	font-family: "Lucida Sans Unicode";
+	font-size: 11px;
+	
+} 
+.password{
+	width: 113px;
+	height: 16px;
+	border: 1px solid #9ba1a3;
+	background-color: #ffffff;
+	padding-left: 3px;
+	margin-left: 2px;
+}
+   input[type="password"]::-webkit-input-placeholder {
+	color: #97a2a6;
+	font-family: "Lucida Sans Unicode";
+	font-size: 11px;
+ }
+   input[type="password"]:-ms-input-placeholder { width: 31px;
+	color: #97a2a6;
+	font-family: "Lucida Sans Unicode";
+	font-size: 11px;
+}
+   input[type="password"]::-ms-input-placeholder {
+	color: #97a2a6;
+	font-family: "Lucida Sans Unicode";
+	font-size: 11px;
+}
+   input[type="password"]::placeholder {
+	color: #97a2a6;
+	font-family: "Lucida Sans Unicode";
+	font-size: 11px;
+} 
+.exit{
+	text-decoration: none;
+	width: 102px;
+	height: 10px;
+	color: #ffffff;
+	font-family: "Lucida Sans Unicode";
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 25.46px;
+	margin-left: 3px;
+}
+.forgotPassword{
+	width: 95px;
+	height: 13px;
+	color: #bfbfbf;
+	font-family: "Lucida Sans Unicode";
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 28px;
+	text-decoration: underline;
+	margin-left: 11px;
+}
+.navigation{
+	width: 85px;
+	height: 33px;
+	padding-top: -25px;
+	padding-left: 25px;
+	padding-top: 5px;
+	}
+.shape{
+	width: 76px;
+	height: 21px;
+	border: 1px solid #bdc4c7;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+.home{
+	width: 12px;
+	height: 11px;
+	margin-top: 4px;
+	margin-left: 8px;
+	
+}
+.navigationOpacity{
+	width: 85px;
+	height: 33px;
+	opacity: 0.52;
+}
+.mapWebsite{
+	width: 14px;
+	height: 10px;
+	margin-top: 4px;
+	margin-left: 8px;
+}	
+.letter{
+	width: 12px;
+	height: 9px;
+	margin-top: 4px;
+	margin-left: 8px;
+}
+.banner{
+		margin:10px auto 5px 345px;
+	}
+.imageBanner{
+	width: 909px;
+	height: 237px;
+
+}
+.menu{
+	width: 910px;
+	height: 33px;
+	box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.75);
+	border: 1px solid #0d1642;
+	background-color: #ffffff;
+	background-image: linear-gradient(to top, #000000 0%, #576068 100%);
+	margin-left: 340px;
+	border-radius: 5px;
+	display: flex;
+}
+.menuLink{
+	display: flex;
+
+}
+.menuLink1{
+	color: #b1bcc0;
+	font-family: "Lucida Sans Unicode";
+	font-size: 14px;
+	
+}
+.menuLink2{
+	color: #b1bcc0;
+	font-family: "Lucida Sans Unicode";
+	font-size: 14px;
+	
+}
+.menuLink3{
+	color: #b1bcc0;
+	font-family: "Lucida Sans Unicode";
+	font-size: 14px;
+	
+}
+.menuLink4{
+	color: #b1bcc0;
+	font-family: "Lucida Sans Unicode";
+	font-size: 14px;
+	
+}
+.menuLink5{
+	color: #b1bcc0;
+	font-family: "Lucida Sans Unicode";
+	font-size: 14px;
+	
+}
+.menuLink1:hover{
+	color: #ffffff;
+	height: 26px;
+	background-color: #f60303;
+	background-image: linear-gradient(to bottom, #206988 0%, #114165 59%, #0c3256 100%);
+	border-radius: 10px;
+}
+.menuLink2:hover{
+	color: #ffffff;
+	height: 26px;
+	background-color: #f60303;
+	background-image: linear-gradient(to bottom, #206988 0%, #114165 59%, #0c3256 100%);
+	border-radius: 10px;
+}
+.menuLink3:hover{
+	color: #ffffff;
+	height: 26px;
+	background-color: #f60303;
+	background-image: linear-gradient(to bottom, #206988 0%, #114165 59%, #0c3256 100%);
+	border-radius: 10px;
+}
+.menuLink4:hover{
+	color: #ffffff;
+	height: 26px;
+	background-color: #f60303;
+	background-image: linear-gradient(to bottom, #206988 0%, #114165 59%, #0c3256 100%);
+	border-radius: 10px;
+}
+.menuLink5:hover{
+	color: #ffffff;
+	height: 26px;
+	background-color: #f60303;
+	background-image: linear-gradient(to bottom, #206988 0%, #114165 59%, #0c3256 100%);
+	border-radius: 10px;
+}
+.koshuk{
+	display: flex;
+	height: 17px;
+}
+.imageKoshuk{
+	width: 21px;
+	height: 17px;
+	margin-left: 100px;
+	margin-top: 10px;
+	margin-right: 3px;
+}
+.wordProductMenu{
+	color: #929b9f;
+	font-family: "Arial MT";
+	font-size: 11px;
+}
+.numberProductMenu{
+	color: #0d5a8f;
+	font-family: "Arial MT";
+	font-size: 12px;
+	margin-right: 15px;
+}
+.WordAmountMenu{
+	color: #8a9296;
+	font-family: "Arial MT";
+	font-size: 11px;
+	margin-right: 10px;
+}
+.costMenu{
+	color: #0d5a8f;
+	font-family: "Arial MT";
+	font-size: 12px;
+}
+.flexFind{
+    display: flex;
+}
+.findPoAvto{
+	width: 414px;
+	height: 134px;
+	box-shadow: 3px 4px 5px rgba(104, 104, 104, 0.75);
+	border: 1px solid #9c9c9d;
+	background-color: #ffffff;
+	border-radius: 20px;
+	margin-left: 340px;
+	margin-top: 15px;
+}
+.titleFindPoAvto{
+	color: #154467;
+	font-family: "Arial - Black";
+	font-size: 12px;
+	letter-spacing: 0.3px;
+	text-align: center;
+	margin-top: -25px;
+}
+.titleDisc{
+	color: #154468;
+	font-family: "Arial - Black";
+	font-size: 10px;
+	letter-spacing: 0.25px;
+	margin-left:15px;
+	margin-top: 3px; 
+}
+.titleTires{
+	color: #154468;
+	font-family: "Arial - Black";
+	font-size: 10px;
+	letter-spacing: 0.25px;
+	float: right;
+	margin-right: 15px;
+	margin-top: -30px;
+
+}
+
+.findTiresPoAvto1{
+	float: right;
+	margin-top: -100px;
+    margin-right: 19px;
+}
+.findTiresPoAvto2{
+	float: right;
+	margin-top: -80px;
+    margin-right: 20px;
+
+}
+.findTiresPoAvto3{
+	float: right;
+	margin-top: -50px;
+    margin-right: 63px;
+}
+.findTiresPoAvto4{
+	float: right;
+	margin-top: -25px;
+    margin-right: 21px;
+}
+.findTiresPoAvto5{
+	float: right;
+	margin-top: -20px;
+}
+.labelFindTiresAvto{
+	color: #000000;
+	font-family: "Arial MT";
+	font-size: 10px;
+	font-weight: 400;
+	letter-spacing: 0.25px;
+	margin-left: 10px;
+    line-height:0.3%;    
+}
+.labelFindDiscAvto{
+    color: #000000;
+	font-family: "Arial MT";
+	font-size: 10px;
+	font-weight: 400;
+	letter-spacing: 0.25px;
+	margin-left: 10px;
+    line-height:0.3%;  
+    
+}
+.findDiscPoAvto{
+	margin-top: -10px;
+}
+.avto1{
+   
+	color: #77858b;
+	font-size: 8px;
+	letter-spacing: 0.2px;
+    margin-left: 10px;
+}
+
+.avto{
+    display: block;
+	color: #77858b;
+	font-size: 8px;
+	letter-spacing: 0.2px;
+    margin-left: 10px;
+}
+#brandAvto{
+	width: 101px;
+	height: 17px;
+	box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
+	background-color: #ffffff;
+    margin-top: 2px;
+    margin-left: 15px;
+}
+#modelAvto{
+	width: 101px;
+	height: 17px;
+	box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
+	background-color: #ffffff;
+    margin-left: 40px;
+    margin-top: 4px;
+    
+}
+#yearAvto{
+	width: 58px;
+	height: 17px;
+	box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
+	background-color: #ffffff;
+    margin-left: 22px;
+    margin-top: -1px;
+}
+#Kit{
+	width: 101px;
+	height: 17px;
+	box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
+	background-color: #ffffff;
+    margin-left: 8px;
+    margin-top: -1px;
+}
+.findWord{
+	text-decoration: none;
+	color: #154467;
+	font-family: "Arial - Italic MT";
+	font-size: 14px;
+	text-decoration: underline;
+	letter-spacing: 0.35px;
+	float: right;
+    margin-right: 25px;
+}
+.wordSeason{
+	color: #000000;
+	font-family: "Lucida Sans Unicode";
+	font-size: 10px;
+	float: left;
+}
+.findTires{
+	width: 192px;
+	height: 136px;
+	box-shadow: 3px 4px 5px rgba(150, 150, 150, 0.75);
+	border: 1px solid #9c9c9d;
+	background-color: #ffffff;
+	border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.titleFindTires{
+	color: #114165;
+	font-size: 12px;
+	font-family: "Arial - Black";
+	margin-left: 10px;
+	margin-top: 3px;
+}
+.labelFindTires{
+	color: #000000;
+	font-family: "Lucida Sans Unicode";
+	font-size: 10px;
+}
+.marginFindTiresSize{
+    margin-top: -10px;
+}
+.marginFindTiresR{
+   margin-top: 5px; 
+}
+.labelFindTiresR{
+	color: #000000;
+	font-family: "Lucida Sans Unicode";
+	font-size: 10px;
+	padding-left:32px; 
+}
+#size{
+    width: 52px;
+    height: 17px;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
+    background-color: #ffffff;
+}
+#size1{
+    width: 53px;
+    height: 17px;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.75);
+    background-color: #ffffff;
+}
+#radius{
+    width: 45px;
+    height: 17px;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.75);
+    background-color: #ffffff;
+}
+.wordSeason{
+    margin-top: 2px;
+}
+.season1{
+	float: left;
+	margin-top: 2px;
+	margin-left: 5px;
+}
+.season2{
+	float: left;
+	margin-top: 17px;
+	margin-left: -20px;
+}
+.season3{
+	float: left;
+	margin-top:32px;
+	margin-left: -20px;
+}
+.summer{
+    margin-bottom: 2px;
+}
+.labelFindTiresMargin{
+	margin-left: 10px;
+}
+.seasonMargin{
+	margin-left: 10px;
+}
+.findWord2{
+	text-decoration: none;
+	color: #154467;
+	font-family: "Arial - Italic MT";
+	font-size: 14px;
+	text-decoration: underline;
+	letter-spacing: 0.35px;
+	float: right;
+    margin-right: 15px;
+    margin-top: 45px;
+}
+.summer:after{
+    content:"лето";
+    margin-left: 17px;
+    color: #000000;
+    font-family: "Lucida Sans Unicode";
+    font-size: 12px;
+}
+.winter:after{
+    content:"зима";
+    margin-left: 17px;
+    color: #000000;
+    font-family: "Lucida Sans Unicode";
+    font-size: 12px;
+}
+.allSeason:after{
+    content:"всесез";
+    margin-left: 17px;
+    color: #000000;
+    font-family: "Lucida Sans Unicode";
+    font-size: 12px;
+}
+.findDisc{
+	width: 268px;
+	height: 135px;
+	box-shadow: 3px 4px 5px rgba(150, 150, 150, 0.75);
+	border: 1px solid #9c9c9d;
+	background-color: #ffffff;
+	border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.titleFindDisc{
+    color: #114165;
+    font-family: "Arial - Black";
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.labelFindDisc{
+    color: #000000;
+    font-family: "Lucida Sans Unicode";
+    font-size: 10px;
+}
+
+.wordGreyColor{
+   color: #77858b;
+   font-weight: 400;
+   line-height: 9px;
+}
+.line{
+    border-right: 2px solid #ccc;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.findDisc1{
+    margin-top: -17px;
+    margin-left:10px;
+    font-weight: 400;
+    line-height: 9px;
+    margin-bottom: -5px;
+     
+}
+.findDisc2{
+    margin-top:4px;
+    margin-left:10px;
+    font-weight: 400;
+    line-height: 9px;
+    margin-bottom: -5px;
+}
+.findDisc3{
+    margin-top:4px;
+    margin-left:10px;
+    font-weight: 400;
+    line-height: 9px;
+    margin-bottom: -5px;
+}
+#diameter{
+    width: 58px;
+    height: 17px;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
+    background-color: #ffffff;
+    margin-left: 5px;
+}
+#numberHole{
+    width: 52px;
+    height: 17px;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
+    background-color: #ffffff;
+    margin-top: -10px;
+    margin-left: 27px;
+}
+#diameterPlacingHole{
+    margin-top: -10px;
+    margin-left: 29px;
+    width: 58px;
+    height: 17px;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
+    background-color: #ffffff;
+}
+.flexFindDisc{
+    display: flex;
+}
+.wordGreyColor2{
+    color: #77858b;
+    font-family: "Lucida Sans Unicode";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 8px;
+}
+.findDisc4{
+    margin-top:5px;
+    font-weight: 400;
+    line-height: 8px;
+}
+.findDisc5{
+    margin-top:2px;
+    font-weight: 400;
+    line-height: 8px;
+}
+.findWord3{
+    text-decoration: none;
+	color: #154467;
+	font-family: "Arial - Italic MT";
+	font-size: 14px;
+	text-decoration: underline;
+	letter-spacing: 0.35px;
+	float: right;
+    margin-left: 5px;
+}
+#DiameterCentralHole{
+    width: 58px;
+    height: 17px;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
+    background-color: #ffffff;
+}
+#et{
+    width: 58px;
+    height: 17px;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
+    background-color: #ffffff;
+}
+.asideLeft{
+    width: 181px;
+    height: 415px;
+    margin-left: 340px;
+	margin-top: 15px;
+}
+
+.titleCataloProduct{
+    color: #114165;
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    width: 181px;
+    height: 25px;
+    box-shadow: 2px 3px 3px rgba(150, 150, 150, 0.75);
+    border: 1px solid #79878d;
+    background-color: #ffffff;
+    border-radius:20px;
+/*
+    padding-top: 5px;
+    padding-left: 35px;
+*/
+    
+}
+/*
+.titleCataloProduct:before{
+    content:url(file.png);
+ 
+width: 12px;
+height: 14px;
+background-color: #ffffff;
+}
+*/
+.asideLeftList{
+    
+}
+.tiresListAsideLeft{
+    width: 148px;
+    height: 26px;
+    border: 1px solid #79878d;
+    background-color: #ffffff;
+    margin-bottom: 45px;
+    border-radius: 20px;
+}
+.discListAsideLeft{
+    width: 149px;
+    height: 26px;
+    border: 1px solid #79878d;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-bottom: 45px;
+}
+.boltsAsideLeft{
+    width: 149px;
+    height: 26px;
+    border: 1px solid #79878d;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.listAsideLeft{
+    color: #114165;
+    font-family: "Lucida Sans Unicode";
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.listAsideLeft:hover{
+    color: #0c3256;
+    font-family: "Arial - Bold Italic MT";
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.FlexmainContent{
+    display:flex;
+}
+.main{
+    width: 527px;
+    height: 628px;
+    background-color: #ffffff;
+    background-image: linear-gradient(to top, rgba(35, 75, 93, 0.49) 0%, rgba(201, 207, 209, 0.49) 100%);
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top:28px;
+}
+.asideRight{
+    margin-top: 15px;
+    
+}
+.titleBrends{
+    width: 181px;
+    height: 25px;
+    box-shadow: 2px 3px 3px rgba(150, 150, 150, 0.75);
+    border: 1px solid #79878d;
+    background-color: #ffffff;
+    border-radius:20px;
+    }
+.tiresListAsideRight{
+    width: 134px;
+    height: 26px;
+    border: 1px solid #79878d;
+    background-color: #ffffff;
+    border-radius:20px;
+    margin-bottom: 40px
+}
+.discListAsideRight{
+    width: 135px;
+    height: 26px;
+    border: 1px solid #79878d;
+    background-color: #ffffff;
+    border-radius:20px;
+}
+.listAsideRight{
+    list-style-type:none;
+    padding-bottom: 10px;
+    /* Style for "Бренд 1 Бр" */
+    color: #465961;
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.ChooseButton{
+    width: 80px;
+    height: 26px;
+    border: 1px solid #a7abae;
+    background-color: #000000;
+    background-image: linear-gradient(to bottom, #206988 0%, #114165 59%, #0c3256 100%);
+    border-radius:10px;
+    margin-top: 95px;
+    margin-left: 45px;
+}
